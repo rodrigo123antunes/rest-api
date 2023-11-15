@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "lint": "eslint src --ext .ts --fix",
-    "knex": "tsx ./node_modules/.bin/knex"
+    "knex": "tsx ./node_modules/.bin/knex",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +25,7 @@
     "fastify": "^4.24.3",
     "knex": "^3.0.1",
     "sqlite3": "^5.1.6",
+    "vitest": "^0.34.6",
     "zod": "^3.22.4"
   }
 }
